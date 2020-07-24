@@ -43,13 +43,6 @@ export class HomeComponent implements OnInit {
     }
   }
 
-
-  RedirectTo(type: String) {
-    this.routes.navigate([`/attachList/` + type])
-
-  }
-
-
   ngOnInit() {
     this.LoginService.currentUser.subscribe(user => this.user = user);
   }
