@@ -1,0 +1,26 @@
+<header style="background-color: #212121;" class="p-3 d-flex flex-row">
+    <i class="material-icons align-self-center" style="color: #FAFAFA;cursor: pointer;" routerLink='/'>chevron_left</i>
+</header>
+
+<ngx-snackbar [position]="'bottom-center'" [max]="3"></ngx-snackbar>
+
+<div class="p-4">
+    <div class="justify-content-center">
+        <h4> Current EMail data : </h4>
+        <form #f="ngForm">
+            <div class="checkbok" *ngFor="let attachment of attachments">
+                <label><input name="attachment.Id" type="checkbox" class="m-2"
+                        [(ngModel)]="attachment.selected">{{ showPieceName(attachment.content.Name)}}</label>
+            </div>
+        </form>
+    </div>
+    <div class="justify-content-center">
+       
+        <button class="btn m-2 btn-primary" (click)="downloadData()">
+            <div class="d-inline-flex align-self-center">
+                Download data<i class="material-icons align-self-center"></i>
+                <ngx-spinner></ngx-spinner>
+            </div>
+        </button>
+    </div>
+</div>
