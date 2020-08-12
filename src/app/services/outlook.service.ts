@@ -2,8 +2,6 @@ import { Injectable, Component } from '@angular/core';
 import { HttpClient, HttpErrorResponse, HttpParams, HttpHeaders } from '@angular/common/http';
 import { Observable, of, throwError, BehaviorSubject } from 'rxjs';
 import { User } from './../login/User';
-import * as pdfHtml from 'html-pdf'
-import * as jsPdf from 'jspdf';
 import { Attachment } from './../attach-list/Attachment';
 
 
