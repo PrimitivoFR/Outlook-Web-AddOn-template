@@ -13,3 +13,8 @@ Well, first you gotta `git clone`, then `cd` inside it and :
 - `npm start`
 
 Then grab the `manifest.xml` and add it to your outlook add-ons.
+
+## Misc
+
+Made by [AppliNH](https://github.com/AppliNH).
+Using [Angular](https://github.com/angular) and [Yo-Office](https://github.com/OfficeDev/generator-office)
