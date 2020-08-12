@@ -17,7 +17,7 @@ Then grab the `manifest.xml` and add it to your outlook add-ons.
 ## How do I add it to my Outlook Add-ons ?
 
 First, login to your Outlook Web Client.
-Then, open of your email and click and the three dots on the top-right of the email.
+Then, open one of your email and click and the three dots on the top-right of the email.
 
 
 <img src="https://i.ibb.co/48HZD3p/Annotation-2020-08-12-160317.png" />
